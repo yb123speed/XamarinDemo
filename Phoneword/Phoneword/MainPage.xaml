@@ -13,7 +13,9 @@
     <StackLayout>
         <Label Text="输入一个电话号码:"></Label>
         <Entry x:Name="phoneNumberText" Text="1-855-XAMARIN" />
-        <Button x:Name="translateButton" Text="Translate" Clicked="OnTranslate" />
-        <Button x:Name="callButton" Text="Call" IsEnabled="false" Clicked="OnCall" />
+        <Button x:Name="translateButton" Text="翻译" Clicked="OnTranslate" />
+        <Button x:Name="callButton" Text="拨号" IsEnabled="False" Clicked="OnCall" />
+        <Button x:Name="callHistoryButton" Text="拨号记录" IsEnabled="False" 
+                Clicked="OnCallHistory" />
     </StackLayout>
 </ContentPage>
