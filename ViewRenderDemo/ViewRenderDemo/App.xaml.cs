@@ -1,4 +1,5 @@
 ﻿using System;
+using ViewRenderDemo.Controls;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace ViewRenderDemo
         {
             InitializeComponent();
 
-            MainPage = new CornerRaidusContentViewPage();
+            MainPage = new SlideUnlockDemoPage();
         }
 
         protected override void OnStart()
